@@ -16,7 +16,7 @@ export default function HoloVision() {
     <div className="space-y-6">
       <div>
         <Image
-          src="/projects/holovision/icon.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/holovision/icon.png`}
           alt="SightTrack application screenshot"
           width={300}
           height={200}
@@ -29,7 +29,7 @@ export default function HoloVision() {
           <h2 className="text-2xl font-semibold text-white">HoloVision</h2>
           <div className="flex items-center gap-2">
             <Image
-              src="/projects/holovision/inova.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/holovision/inova.png`}
               alt="Inova logo"
               width={16}
               height={16}

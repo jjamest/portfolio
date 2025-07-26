@@ -24,7 +24,7 @@ export default function SightTrack() {
     <div className="space-y-6">
       <div className="flex justify-center">
         <Image
-          src="/projects/sighttrack/sighttrack.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/sighttrack/sighttrack.png`}
           alt="SightTrack application screenshot"
           width={400}
           height={300}
@@ -94,7 +94,7 @@ export default function SightTrack() {
           Data Visualization
         </h3>
         <Image
-          src="/projects/sighttrack/heatmap.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/sighttrack/heatmap.png`}
           alt="SightTrack heatmap showing biodiversity data visualization"
           width={600}
           height={300}

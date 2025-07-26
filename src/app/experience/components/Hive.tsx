@@ -16,7 +16,7 @@ export default function Hive() {
     <div className="space-y-6">
       <div>
         <Image
-          src="/projects/hive/logo.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hive/logo.png`}
           alt="SightTrack application screenshot"
           width={300}
           height={200}
@@ -81,7 +81,7 @@ export default function Hive() {
       <div>
         <h3 className="text-lg font-medium text-white mb-3">Preview</h3>
         <Image
-          src="/projects/hive/dashboard.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hive/dashboard.png`}
           alt="Hive application dashboard"
           width={600}
           height={300}
@@ -89,7 +89,7 @@ export default function Hive() {
           priority
         />
         <Image
-          src="/projects/hive/create.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hive/create.png`}
           alt="Hive application create new project"
           width={600}
           height={300}

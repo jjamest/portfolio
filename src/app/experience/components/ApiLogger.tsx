@@ -15,7 +15,7 @@ export default function ApiLogger() {
     <div className="space-y-6">
       <div>
         <Image
-          src="/projects/apiLogger/logo.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/apiLogger/logo.png`}
           alt="SightTrack application screenshot"
           width={300}
           height={200}
@@ -81,7 +81,7 @@ export default function ApiLogger() {
       <div>
         <h3 className="text-lg font-medium text-white mb-3">Demo</h3>
         <video
-          src="/projects/apiLogger/demo.mov"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/apiLogger/demo.mov`}
           autoPlay
           loop
           muted

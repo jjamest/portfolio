@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
   basePath: isGithubPages ? `/${repo}` : "",
   trailingSlash: true,
   output: "export",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

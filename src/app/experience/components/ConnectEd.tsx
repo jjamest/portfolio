@@ -16,7 +16,7 @@ export default function ConnectEd() {
     <div className="space-y-6">
       <div>
         <Image
-          src="/projects/connectEd/logo.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/connectEd/logo.png`}
           alt="SightTrack application screenshot"
           width={400}
           height={300}
