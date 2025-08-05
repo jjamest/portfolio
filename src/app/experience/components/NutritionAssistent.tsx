@@ -80,7 +80,6 @@ export default function NutritionAssistent() {
           width={600}
           height={300}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
     </div>

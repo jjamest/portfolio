@@ -21,7 +21,6 @@ export default function ConnectEd() {
           width={400}
           height={300}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
       <div>

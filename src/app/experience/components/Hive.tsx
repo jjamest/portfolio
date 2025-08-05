@@ -29,7 +29,6 @@ export default function Hive() {
           width={600}
           height={400}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
       <div>
@@ -94,7 +93,6 @@ export default function Hive() {
           width={600}
           height={300}
           className="rounded-lg shadow-lg"
-          priority
         />
         <Image
           src="/projects/hive/create.png"
@@ -102,7 +100,6 @@ export default function Hive() {
           width={600}
           height={300}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
     </div>

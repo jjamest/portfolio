@@ -20,7 +20,6 @@ export default function ApiLogger() {
           width={300}
           height={200}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
       <div>

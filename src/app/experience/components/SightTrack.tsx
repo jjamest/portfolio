@@ -29,7 +29,6 @@ export default function SightTrack() {
           width={400}
           height={300}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
       <div>
@@ -99,7 +98,6 @@ export default function SightTrack() {
           width={600}
           height={300}
           className="rounded-lg shadow-lg"
-          priority
         />
       </div>
     </div>
