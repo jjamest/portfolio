@@ -2,7 +2,15 @@ import Image from "next/image";
 
 export default function Hive() {
   const projectData = {
-    technologies: ["Typescript", "Python", "Firebase", "Electron-Vite"],
+    technologies: [
+      "Typescript",
+      "Python",
+      "Firebase",
+      "Electron-Vite",
+      "PostgreSQL",
+      "Deno Runtime",
+      "Oak",
+    ],
     details: [
       "Cross-platform desktop application",
       "Select multiple AI agents to assist with tasks",
@@ -16,10 +24,10 @@ export default function Hive() {
     <div className="space-y-6">
       <div>
         <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hive/logo.png`}
-          alt="SightTrack application screenshot"
-          width={300}
-          height={200}
+          src="/projects/hive/banner.svg"
+          alt="Hive application banner"
+          width={600}
+          height={400}
           className="rounded-lg shadow-lg"
           priority
         />
@@ -81,7 +89,7 @@ export default function Hive() {
       <div>
         <h3 className="text-lg font-medium text-white mb-3">Preview</h3>
         <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hive/dashboard.png`}
+          src="/projects/hive/dashboard.png"
           alt="Hive application dashboard"
           width={600}
           height={300}
@@ -89,7 +97,7 @@ export default function Hive() {
           priority
         />
         <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/hive/create.png`}
+          src="/projects/hive/create.png"
           alt="Hive application create new project"
           width={600}
           height={300}

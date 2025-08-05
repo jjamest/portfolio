@@ -75,7 +75,7 @@ export default function NutritionAssistent() {
           Data Processer Demo
         </h3>
         <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_PATH}/projects/nutritionAssistent/code.png`}
+          src="/projects/nutritionAssistent/code.png"
           alt="Hive application dashboard"
           width={600}
           height={300}
