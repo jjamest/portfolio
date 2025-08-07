@@ -1,4 +1,5 @@
 import BackButton from "../ui/BackButton";
+import ExpandableImage from "../components/ExpandableImage";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -64,15 +65,15 @@ export default function AboutMe() {
                     </span>
                     <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
                       Experienced with building full-stack applications with
-                      modern frameworks like React, Next.js, and Python. I'm
-                      also proficient at mobile app development, where I
-                      designed and developed numerous apps using the Flutter
+                      modern frameworks like React, Next.js, and Python.
+                      I&apos;m also proficient at mobile app development, where
+                      I designed and developed numerous apps using the Flutter
                       framework.
                     </p>
                     <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-[40rem] transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
                       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-2">
                         <div className="aspect-[9/20] bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/software_development/1.png"
                             alt="Software Development Project 1"
                             width={180}
@@ -81,7 +82,7 @@ export default function AboutMe() {
                           />
                         </div>
                         <div className="aspect-[9/20] bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/software_development/2.png"
                             alt="Software Development Project 2"
                             width={180}
@@ -90,7 +91,7 @@ export default function AboutMe() {
                           />
                         </div>
                         <div className="aspect-[9/20] bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/software_development/3.png"
                             alt="Software Development Project 3"
                             width={180}
@@ -123,7 +124,7 @@ export default function AboutMe() {
                     <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                         <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/robotics/1.png"
                             alt="Robotics project 1"
                             width={200}
@@ -132,7 +133,7 @@ export default function AboutMe() {
                           />
                         </div>
                         <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/robotics/2.png"
                             alt="Robotics project 2"
                             width={200}
@@ -167,9 +168,12 @@ export default function AboutMe() {
                       Machine learning and artificial intelligence
                     </span>
                     <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      I'm passionate about exploring topics such as neural networks, computer vision, and natural
-                      language processing to solve complex problems and create
-                      intelligent applications. I'm also investigating applications of retrieval-augmented generation and its integration with knowledge graphs.
+                      I&apos;m passionate about exploring topics such as neural
+                      networks, computer vision, and natural language processing
+                      to solve complex problems and create intelligent
+                      applications. I&apos;m also investigating applications of
+                      retrieval-augmented generation and its integration with
+                      knowledge graphs.
                     </p>
                   </div>
                 </div>
@@ -184,12 +188,13 @@ export default function AboutMe() {
                       Technological innovation
                     </span>
                     <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      I'm interested in 3D printing, IoT, and other emerging technologies.
+                      I&apos;m interested in 3D printing, IoT, and other
+                      emerging technologies.
                     </p>
                     <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                         <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/tech_innovation/1.png"
                             alt="3D prototype 1"
                             width={200}
@@ -198,7 +203,7 @@ export default function AboutMe() {
                           />
                         </div>
                         <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/tech_innovation/2.png"
                             alt="3D prototype 2"
                             width={200}
@@ -209,7 +214,7 @@ export default function AboutMe() {
                       </div>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                         <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/tech_innovation/3.jpeg"
                             alt="3D prototype 3"
                             width={200}
@@ -218,7 +223,7 @@ export default function AboutMe() {
                           />
                         </div>
                         <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
-                          <Image
+                          <ExpandableImage
                             src="/about_me/tech_innovation/4.jpeg"
                             alt="3D prototype 4"
                             width={200}
