@@ -52,8 +52,8 @@ export default function AboutMe() {
         <div className="mt-12 text-center">
           <h2 className="text-2xl font-semibold mb-6">Passions & Interests</h2>
           <div className="max-w-3xl mx-auto text-left">
-            <ul className="space-y-4 text-lg">
-              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer">
+            <ul className="space-y-6 text-lg">
+              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer min-h-[4rem]">
                 <div className="flex items-start">
                   <span className="text-blue-500 mr-3 transition-transform duration-300 group-hover:scale-110 group-hover:text-white">
                     •
@@ -69,10 +69,41 @@ export default function AboutMe() {
                       designed and developed numerous apps using the Flutter
                       framework.
                     </p>
+                    <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-[40rem] transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
+                      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-2">
+                        <div className="aspect-[9/20] bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/software_development/1.png"
+                            alt="Software Development Project 1"
+                            width={180}
+                            height={320}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                        <div className="aspect-[9/20] bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/software_development/2.png"
+                            alt="Software Development Project 2"
+                            width={180}
+                            height={320}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                        <div className="aspect-[9/20] bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/software_development/3.png"
+                            alt="Software Development Project 3"
+                            width={180}
+                            height={320}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer">
+              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer min-h-[4rem]">
                 <div className="flex items-start">
                   <span className="text-blue-500 mr-3 transition-transform duration-300 group-hover:scale-110 group-hover:text-white">
                     •
@@ -126,7 +157,7 @@ export default function AboutMe() {
                   </div>
                 </div>
               </li>
-              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer">
+              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer min-h-[4rem]">
                 <div className="flex items-start">
                   <span className="text-blue-500 mr-3 transition-transform duration-300 group-hover:scale-110 group-hover:text-white">
                     •
@@ -136,14 +167,14 @@ export default function AboutMe() {
                       Machine learning and artificial intelligence
                     </span>
                     <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      Exploring neural networks, computer vision, and natural
+                      I'm passionate about exploring topics such as neural networks, computer vision, and natural
                       language processing to solve complex problems and create
-                      intelligent applications.
+                      intelligent applications. I'm also investigating applications of retrieval-augmented generation and its integration with knowledge graphs.
                     </p>
                   </div>
                 </div>
               </li>
-              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer">
+              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer min-h-[4rem]">
                 <div className="flex items-start">
                   <span className="text-blue-500 mr-3 transition-transform duration-300 group-hover:scale-110 group-hover:text-white">
                     •
@@ -153,14 +184,54 @@ export default function AboutMe() {
                       Technological innovation
                     </span>
                     <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      Staying at the forefront of emerging technologies and
-                      finding creative ways to apply new tools and methodologies
-                      to real-world challenges.
+                      I'm interested in 3D printing, IoT, and other emerging technologies.
                     </p>
+                    <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+                        <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/tech_innovation/1.png"
+                            alt="3D prototype 1"
+                            width={200}
+                            height={150}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                        <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/tech_innovation/2.png"
+                            alt="3D prototype 2"
+                            width={200}
+                            height={150}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                      </div>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+                        <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/tech_innovation/3.jpeg"
+                            alt="3D prototype 3"
+                            width={200}
+                            height={150}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                        <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
+                          <Image
+                            src="/about_me/tech_innovation/4.jpeg"
+                            alt="3D prototype 4"
+                            width={200}
+                            height={150}
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          />
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
-              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer">
+              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer min-h-[4rem]">
                 <div className="flex items-start">
                   <span className="text-blue-500 mr-3 transition-transform duration-300 group-hover:scale-110 group-hover:text-white">
                     •
@@ -177,7 +248,7 @@ export default function AboutMe() {
                   </div>
                 </div>
               </li>
-              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer">
+              <li className="group p-4 rounded-lg transition-all duration-300 hover:bg-gray-800 hover:shadow-md cursor-pointer min-h-[4rem]">
                 <div className="flex items-start">
                   <span className="text-blue-500 mr-3 transition-transform duration-300 group-hover:scale-110 group-hover:text-white">
                     •
