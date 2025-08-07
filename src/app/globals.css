@@ -52,3 +52,72 @@ body {
     transparent 100%
   );
 }
+
+/* Custom Cursor Styles */
+* {
+  cursor: none !important;
+}
+
+.custom-cursor {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: width 0.2s ease, height 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+  will-change: transform;
+  box-shadow: 
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #ffffff,
+    0 0 40px #ffffff;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.custom-cursor.hovering {
+  width: 16px;
+  height: 16px;
+  background: #00ff88;
+  box-shadow: 
+    0 0 15px #00ff88,
+    0 0 30px #00ff88,
+    0 0 45px #00ff88,
+    0 0 60px #00ff88;
+  animation: hoverGlow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes hoverGlow {
+  from {
+    box-shadow: 
+      0 0 10px #00ff88,
+      0 0 20px #00ff88,
+      0 0 30px #00ff88,
+      0 0 40px #00ff88;
+  }
+  to {
+    box-shadow: 
+      0 0 15px #00ff88,
+      0 0 30px #00ff88,
+      0 0 45px #00ff88,
+      0 0 60px #00ff88;
+  }
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 
+      0 0 5px #ffffff,
+      0 0 10px #ffffff,
+      0 0 15px #ffffff,
+      0 0 20px #ffffff;
+  }
+  to {
+    box-shadow: 
+      0 0 10px #ffffff,
+      0 0 20px #ffffff,
+      0 0 30px #ffffff,
+      0 0 40px #ffffff;
+  }
+}

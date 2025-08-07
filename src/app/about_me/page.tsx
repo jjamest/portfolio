@@ -250,10 +250,24 @@ export default function AboutMe() {
                       Problem-solving
                     </span>
                     <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      Breaking down complex challenges into manageable
-                      components and developing systematic approaches to find
-                      effective solutions.
+                      I enjoy creating practical solutions that address real-world problems and breaking down complicated tasks into manageable components.
                     </p>
+                    <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+                        <div className="aspect-video bg-gray-700 rounded-lg overflow-hidden">
+                          <video
+                            src="/about_me/problem_solving/1.mp4"
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                          >
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </li>
@@ -266,11 +280,6 @@ export default function AboutMe() {
                     <span className="font-medium group-hover:text-white transition-colors duration-300">
                       Finding solutions to everyday challenges
                     </span>
-                    <p className="text-gray-300 text-sm mt-2 max-h-0 overflow-hidden group-hover:max-h-20 transition-all duration-500 ease-in-out opacity-0 group-hover:opacity-100">
-                      Identifying pain points in daily life and creating
-                      practical applications and tools that make processes more
-                      efficient and user-friendly.
-                    </p>
                   </div>
                 </div>
               </li>
