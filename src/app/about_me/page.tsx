@@ -1,6 +1,7 @@
 import BackButton from "../ui/BackButton";
 import Image from "next/image";
 import Link from "next/link";
+import MLVideos from "./components/MLVideos";
 
 export default function AboutMe() {
   return (
@@ -171,6 +172,9 @@ export default function AboutMe() {
                       language processing to solve complex problems and create
                       intelligent applications. I'm also investigating applications of retrieval-augmented generation and its integration with knowledge graphs.
                     </p>
+                    <div className="mt-4 max-h-0 overflow-hidden group-hover:max-h-96 transition-all duration-700 ease-in-out opacity-0 group-hover:opacity-100">
+                      <MLVideos />
+                    </div>
                   </div>
                 </div>
               </li>
