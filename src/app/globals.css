@@ -10,3 +10,45 @@ body {
   color: var(--foreground);
   font-family: var(--font-sf-pro), -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+.carousel-container {
+  mask: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 5%,
+    rgba(0, 0, 0, 0.8) 15%,
+    black 25%,
+    black 75%,
+    rgba(0, 0, 0, 0.8) 85%,
+    rgba(0, 0, 0, 0.1) 95%,
+    transparent 100%
+  );
+  -webkit-mask: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(0, 0, 0, 0.1) 5%,
+    rgba(0, 0, 0, 0.8) 15%,
+    black 25%,
+    black 75%,
+    rgba(0, 0, 0, 0.8) 85%,
+    rgba(0, 0, 0, 0.1) 95%,
+    transparent 100%
+  );
+}

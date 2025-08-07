@@ -54,10 +54,10 @@ export default function Home() {
               About Me
             </a>
             <a
-              href="/experience"
+              href="/projects"
               className="hover:text-slate-300/70 transition-colors border-transparent hover:border-slate-300/70 text-slate-300"
             >
-              Experience
+              Projects
             </a>
             <a
               href="/contact"
